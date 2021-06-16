@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <RxJs />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import RxJs from "./components/RxJs.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    RxJs,
+  },
+};
 </script>
 
 <style>
